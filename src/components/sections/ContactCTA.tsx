@@ -15,8 +15,8 @@ const ContactCTA = () => {
             </p>
           </div>
           <div className="space-y-4">
-            <GradientButton as="a" href="mailto:aditya@example.com" icon={Mail} className="w-full">aditya@example.com</GradientButton>
-            <a href="mailto:aditya@example.com" className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-text-primary transition-all duration-200 hover:bg-white/10 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background">
+            <GradientButton as="a" href="mailto:hello@promptfloe.com" icon={Mail} className="w-full">hello@promptfloe.com</GradientButton>
+            <a href="mailto:hello@promptfloe.com" className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-text-primary transition-all duration-200 hover:bg-white/10 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background">
               <CalendarRange className="h-4 w-4" />Book a strategic intro call
             </a>
             <a href="/case-studies" className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-primary/20 bg-primary/10 px-5 py-3 text-sm font-semibold text-primary transition-all duration-200 hover:bg-primary/15 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background">

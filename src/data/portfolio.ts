@@ -49,7 +49,7 @@ export type ContactLink = {
 
 export const portfolio = {
   profile: {
-    name: 'Aditya Vardhan',
+    name: 'Aditya Vardhan Nagamalli',
     role: 'Founder & CEO | Full Stack Architect',
     intro:
       'I design and ship intelligent software systems that turn complex operations into scalable products. From enterprise platforms to AI-first workflows, I build with product depth, systems thinking, and founder-level execution.',
@@ -86,6 +86,12 @@ export const portfolio = {
       {
         year: '2024',
         title: 'Founded EpicForge Software and Astrova Labs',
+        description:
+          'Transitioned from engineering leadership into founder mode, building products around automation, AI systems, and scalable software operations.',
+      },
+        {
+        year: '2026',
+        title: 'Founded Astrova Labs',
         description:
           'Transitioned from engineering leadership into founder mode, building products around automation, AI systems, and scalable software operations.',
       },
@@ -233,8 +239,8 @@ export const portfolio = {
     message:
       'If you are building a serious product, modernizing a platform, or exploring AI-native systems, I am open to focused conversations with founders, teams, and collaborators who value clarity and execution.',
     links: [
-      { label: 'Email', value: 'aditya@epicforge.software', href: 'mailto:aditya@epicforge.software' },
-      { label: 'Book a call', value: 'Schedule a strategic conversation', href: 'mailto:aditya@epicforge.software?subject=Let%27s%20build%20something%20serious' },
+      { label: 'Email', value: 'hello@promptfloe.com', href: 'mailto:hello@promptfloe.com' },
+      { label: 'Book a call', value: 'Schedule a strategic conversation', href: 'mailto:hello@promptfloe.com?subject=Let%27s%20build%20something%20serious' },
       { label: 'Location', value: 'Available for global remote collaborations', href: '#' },
     ] as ContactLink[],
   },

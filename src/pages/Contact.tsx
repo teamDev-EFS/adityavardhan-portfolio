@@ -16,7 +16,7 @@ const Contact = () => {
           </GlassCard>
           <GlassCard>
             <div className="space-y-4 text-sm text-text-secondary">
-              <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-4"><Mail className="h-4 w-4 text-primary" />aditya@example.com</div>
+              <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-4"><Mail className="h-4 w-4 text-primary" />hello@promptfloe.com/div>
               <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-4"><Building2 className="h-4 w-4 text-primary" />EpicForge Software • Astrova Labs</div>
               <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-4"><Rocket className="h-4 w-4 text-primary" />Global clients • Investors • Remote teams • Collaborators</div>
             </div>
