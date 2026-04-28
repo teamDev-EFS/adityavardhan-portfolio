@@ -85,7 +85,7 @@ export const portfolio = {
         },
       {
         year: '2024',
-        title: 'Founded EpicForge Software and Astrova Labs',
+        title: 'Founded EpicForge Software',
         description:
           'Transitioned from engineering leadership into founder mode, building products around automation, AI systems, and scalable software operations.',
       },
