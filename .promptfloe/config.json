@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "generator": "promptfloe",
+  "generatedAt": "2026-04-28T13:45:05.323Z",
+  "project": {
+    "name": "adityavardhan-portfolio",
+    "framework": "react",
+    "chatId": null
+  },
+  "repo": "teamDev-EFS/adityavardhan-portfolio",
+  "urls": {
+    "app": "https://promptfloe.com",
+    "docs": "https://docs.promptfloe.com"
+  }
+}
