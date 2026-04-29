@@ -1,67 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-
+:root { --background: #0A0F1E; --surface-1: #111827; --surface-2: #1F2937; --surface-3: #374151; --border: #1F2937; --border-strong: #374151; --primary: #3B82F6; --primary-hover: #2563EB; --primary-subtle: #1E3A5F; --text-primary: #F9FAFB; --text-secondary: #9CA3AF; --text-tertiary: #6B7280; --success: #10B981; --warning: #F59E0B; --danger: #EF4444; --info: #06B6D4; }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #F5EBDD;
-  --surface-1: #FFF8EF;
-  --surface-2: #F6E7D3;
-  --surface-3: #EFD6B7;
-  --border: #E8CCAA;
-  --border-strong: #D9B88E;
-  --primary: #EA7A2F;
-  --primary-hover: #D9671B;
-  --primary-subtle: #F6D2B5;
-  --text-primary: #3B2414;
-  --text-secondary: #7A5A42;
-  --text-tertiary: #A17A5C;
-  --success: #2F9E6F;
-  --warning: #D98A1F;
-  --danger: #D45745;
-}
-
-@layer base {
-  html {
-    scroll-behavior: smooth;
-  }
-
-  body {
-    margin: 0;
-    min-width: 320px;
-    background: var(--background);
-    color: var(--text-primary);
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-image:
-      radial-gradient(circle at top left, rgba(234, 122, 47, 0.14), transparent 28%),
-      radial-gradient(circle at top right, rgba(217, 103, 27, 0.1), transparent 24%),
-      linear-gradient(180deg, rgba(255, 248, 239, 0.96) 0%, rgba(245, 235, 221, 1) 100%);
-    background-attachment: fixed;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  #root {
-    min-height: 100vh;
-  }
-}
-
-@layer components {
-  .container-shell {
-    @apply mx-auto max-w-7xl px-6;
-  }
-
-  .section-pad {
-    @apply py-20;
-  }
-
-  .shadow-panel {
-    box-shadow: 0 12px 32px rgba(128, 78, 34, 0.08), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  }
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background-color: var(--background); color: var(--text-primary); -webkit-font-smoothing: antialiased; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--surface-1); }
+::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-strong); }

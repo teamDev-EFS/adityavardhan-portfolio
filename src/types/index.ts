@@ -1,93 +1,32 @@
-import { Lucide } from 'lucide-react';
+export type Priority = 'low' | 'medium' | 'high';
+export type TaskStatus = 'todo' | 'in_progress' | 'completed';
 
-export interface NavItem {
-  label: string;
-  href: string;
-  external?: boolean;
+export interface Task {
+  id: string;
+  title: string;
+  description: string;
+  dueDate: string;
+  priority: Priority;
+  completed: boolean;
+  projectId: string;
+  createdAt: string;
+  tags: string[];
 }
 
-export interface Stat {
-  label: string;
-  value: string;
-}
-
-export interface FounderProfile {
+export interface Project {
+  id: string;
   name: string;
-  role: string;
-  companies: string[];
-  tagline: string;
-  intro: string;
-  longBio: string;
+  color: string;
+  icon: string;
+  taskCount: number;
+  completedCount: number;
+  createdAt: string;
+}
+
+export interface User {
+  id: string;
+  name: string;
   email: string;
-  location: string;
-  social: {
-    linkedin: string;
-    github: string;
-  };
-}
-
-export interface Venture {
-  slug: string;
-  name: string;
-  category: string;
-  status: 'Live' | 'Building' | 'Concept' | 'Advisory';
-  problem: string;
-  vision: string;
-  techAngle: string;
-  stack: string[];
-  ctaLabel: string;
-  detail: string;
-}
-
-export interface CaseStudy {
-  slug: string;
-  title: string;
-  sector: string;
+  avatar: string;
   role: string;
-  problem: string;
-  solution: string;
-  impact: string;
-  stack: string[];
-}
-
-export interface ExperienceItem {
-  year: string;
-  title: string;
-  company: string;
-  summary: string;
-  metric: string;
-}
-
-export interface CapabilityGroup {
-  title: string;
-  summary: string;
-  skills: string[];
-  icon: Lucide;
-}
-
-export interface Principle {
-  title: string;
-  description: string;
-}
-
-export interface VisionPillar {
-  title: string;
-  description: string;
-}
-
-export interface WritingPost {
-  slug: string;
-  title: string;
-  summary: string;
-  category: string;
-}
-
-export interface PressAsset {
-  label: string;
-  value: string;
-}
-
-export interface CredibilityPoint {
-  title: string;
-  description: string;
 }
